@@ -1,0 +1,56 @@
+.form-group{
+    display: table;
+   width: 100%;
+   
+  
+}
+.f{
+   margin-left: 10%;
+   margin-right: 20%;
+     margin-top: 10%;
+   margin-bottom: 20%;
+}
+
+.buttonContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.buttonContainer1 {
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+}
+
+.fgtpwd{
+  border: none;
+  background: none;
+  color: cornflowerblue;
+}
+
+.Login{
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://blog.schunk-group.com/hubfs/Bilder/Blog-Bilder/Global%20Graduate%20Program/silent-emobility-1920x700.jpg);
+    width: 100vw;
+    height: 100vh;
+}
+
+.form-control{
+    width: 5px; 
+    height: 40px;
+    
+}
+.C{
+    width: 300px;
+}
+
+.forgot-password{
+    margin-left: 43%;
+    color:cornflowerblue
+    
+}

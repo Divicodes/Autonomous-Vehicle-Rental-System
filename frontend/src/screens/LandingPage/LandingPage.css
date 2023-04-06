@@ -1,0 +1,51 @@
+
+.subtitle {
+  font-size: 20px;
+  padding-top: 20px;
+  color:white;
+}
+.intro-text {
+  width: 100%;
+  text-align: center;
+}
+.main {
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://autobunny-docs.s3.ca-central-1.amazonaws.com/1233/web-content/site_slider_filename.jpg);
+  width: 100vw;
+  height: 100vh;
+}
+
+.buttonContainer {
+  width: inherit;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.landingButton {
+  
+  width: 200px;
+  height: 55px;
+}
+
+.landingButton1 {
+  
+  width: 160px;
+  height: 55px;
+  margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 60px;
+  }
+  .landingbutton {
+    width: 150px;
+    height: 50px;
+  }
+}
